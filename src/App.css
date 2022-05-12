@@ -1,0 +1,173 @@
+.mainDiv{
+  background-color: rgb(238, 246, 251);
+  width: 100vw;
+  height: 100vh;
+  font-family: Corbel;
+  text-align: center;
+}
+.mainTitleDiv{
+  text-align: center;
+  max-width: 450px;
+  width: 100%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainTitleText{
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Corbel Light;
+  transition-duration: 0.5s;
+}
+.mainTitleText:hover{
+  color:  rgb(93, 175, 232);
+  font-weight: 800;
+}
+.mainBody{
+  background-color: rgb(255, 255, 255);;
+  max-width: 650px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 4px;
+  box-shadow: rgba(0, 0, 0, 0.068) 0px 0px 25px 5px;
+  transition-duration: 0.5s;
+  animation-duration: 2s;
+}
+.button_click{
+  /* animation-name: ; */
+}
+.mainTopDiv{
+  width: 100%;
+  border-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: rgb(238, 246, 251);
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  text-align: center;
+}
+.topcenterDiv{
+  width: 50%;
+  margin: auto;
+}
+.topcenterDiv p{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Corbel;
+  margin: 0px;
+  padding-top: 35px;
+}
+.topcenterBottom{
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  align-items: center;
+}
+.degreeC{
+  margin-bottom: 50px;
+}
+.pictureTodayDiv{
+  margin-bottom: 30px;
+}
+#todayDegree{
+  font-family: Agency FB;
+  font-size: 80px;
+  margin: 0px;
+  margin-top: 16px;
+  text-align: left;
+  transition-duration: 2s;
+}
+#todayCondition{
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.mainBottomDiv{
+  width: 100%;
+  border-radius: 12px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  display: flex;
+  background-color: white
+}
+.bottomSubDiv1{
+  width: 25%;
+  border-bottom-left-radius: 12px;
+  border-right-color: rgb(255, 255, 255);
+  border-right-width: 4px;
+  border-right-style: solid;
+  background-color: rgb(238, 246, 251);
+}
+.bottomSubDiv2{
+  width: 25%;
+  border-right-color: rgb(255, 255, 255);
+  border-right-width: 4px;
+  border-right-style: solid;
+  background-color: rgb(238, 246, 251);
+}
+.bottomSubDiv3{
+  width: 25%;
+  border-right-color: rgb(255, 255, 255);
+  border-right-width: 4px;
+  border-right-style: solid;
+  background-color: rgb(238, 246, 251);
+}
+.bottomSubDiv4{
+  width: 25%;
+  border-bottom-right-radius: 12px;
+  background-color: rgb(238, 246, 251);
+}
+.dayDiv{
+  width: fit-content;
+  margin: auto;
+}
+.dayWhat{
+  font-size: 26px;
+  margin: 20px;
+}
+.dayDegree{
+  font-family: Agency FB;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.addColor{
+  color:  rgb(119, 187, 235);
+  font-weight: 800;
+}
+.dayIcon{
+  height: 60px;
+}
+@media only screen and (max-width: 500px) {
+  .mainTitleDiv{
+    display: grid;
+    justify-content: initial;
+  }
+  .mainBottomDiv{
+    display: initial;
+  }
+  .bottomSubDiv1{
+    width: 100%;
+  }
+  .bottomSubDiv2{
+    width: 100%;
+  }
+  .bottomSubDiv3{
+    width: 100%;
+  }
+  .bottomSubDiv4{
+    width: 100%;
+  }
+  .dayDiv{
+    display: flex;
+  }
+}
